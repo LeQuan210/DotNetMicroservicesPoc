@@ -239,6 +239,163 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{11C2
 		..\..\..\..\Downloads\scripts\rabbitmq-isolated.conf = ..\..\..\..\Downloads\scripts\rabbitmq-isolated.conf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWasmClient", "BlazorWasmClient", "{F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\App.razor = ..\..\..\..\Downloads\BlazorWasmClient\App.razor
+		..\..\..\..\Downloads\BlazorWasmClient\BlazorWasmClient.csproj = ..\..\..\..\Downloads\BlazorWasmClient\BlazorWasmClient.csproj
+		..\..\..\..\Downloads\BlazorWasmClient\GlobalUsings.cs = ..\..\..\..\Downloads\BlazorWasmClient\GlobalUsings.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Program.cs = ..\..\..\..\Downloads\BlazorWasmClient\Program.cs
+		..\..\..\..\Downloads\BlazorWasmClient\_Imports.razor = ..\..\..\..\Downloads\BlazorWasmClient\_Imports.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{170DC393-BD7A-4228-880A-84DA6E85F015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{4D99FB21-18F4-4C5C-9415-3B1B5A514AA1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthClient.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthClient.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthRequest.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthRequest.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthResponse.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\AuthResponse.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\Login.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\Login.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\UserSession.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Auth\UserSession.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{5D3D0BBC-B3BF-432E-A6DF-6174244BE1D8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Chat\Chat.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Chat\Chat.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Chat\ChatMessage.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Chat\ChatMessage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{C56F2236-BA7A-492D-8FC5-8FC3BA1607E3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\Dashboard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\Dashboard.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\DashboardClient.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\DashboardClient.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\TrandsCard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Dashboard\TrandsCard.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layout", "Layout", "{0C87AA53-945F-4295-96C8-C65B245307F2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\FooterMenu.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\FooterMenu.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\SideMenu.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\SideMenu.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css = ..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\TopMenu.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Layout\TopMenu.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{5E15FBE6-1F34-484F-ADE0-FC155F9D9CBD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{36DD08D8-7874-411A-8D95-0EECE33422AC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ContractDetailsSection.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ContractDetailsSection.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\OfferParametersModel.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\OfferParametersModel.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\OfferParamsSection.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\OfferParamsSection.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\PolicyClient.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\PolicyClient.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\PolicySummarySection.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\PolicySummarySection.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductCard.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductCard.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductDetails.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductDetails.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductsClient.cs = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductsClient.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductsList.razor = ..\..\..\..\Downloads\BlazorWasmClient\Components\Products\ProductsList.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{9DB7A6A9-CDF0-4CBD-8331-6EBF5810BA33}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Layouts\MainLayout.razor = ..\..\..\..\Downloads\BlazorWasmClient\Layouts\MainLayout.razor
+		..\..\..\..\Downloads\BlazorWasmClient\Layouts\MainLayout.razor.cs = ..\..\..\..\Downloads\BlazorWasmClient\Layouts\MainLayout.razor.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{DE0592C9-FC69-48B8-A9DB-EDD7A8B8BA8B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Pages\Home.razor = ..\..\..\..\Downloads\BlazorWasmClient\Pages\Home.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{0A646F7F-E7C7-4B3A-94BC-4331769B15EC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Properties\launchSettings.json = ..\..\..\..\Downloads\BlazorWasmClient\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{92799473-84ED-4949-ADEC-F4F952C957B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\Shared\ApiResponse.cs = ..\..\..\..\Downloads\BlazorWasmClient\Shared\ApiResponse.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Shared\CustomValidations.cs = ..\..\..\..\Downloads\BlazorWasmClient\Shared\CustomValidations.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Shared\DateTimeExtension.cs = ..\..\..\..\Downloads\BlazorWasmClient\Shared\DateTimeExtension.cs
+		..\..\..\..\Downloads\BlazorWasmClient\Shared\ProductIcons.cs = ..\..\..\..\Downloads\BlazorWasmClient\Shared\ProductIcons.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{FE045C22-346F-45AD-A764-64F01D474146}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\appsettings.json = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\appsettings.json
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\brand-logo.png = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\brand-logo.png
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\favicon.ico = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\favicon.ico
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\index.html = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0DD108E3-5532-43A5-95D6-9358EF9FCDB9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\blazor-ui.css = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\blazor-ui.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{BCEF9830-0245-4BD2-B437-95174152928F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{D8031290-FABE-40F6-A0EA-6ADA53511D4B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\car.jpg = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\car.jpg
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\farm.jpg = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\farm.jpg
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\house.jpg = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\house.jpg
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\travel.jpg = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{76F63AD2-5086-438B-9AE1-A3DAE0E7B9C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.css = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.css
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.css.map = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.css.map
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.min.css = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.min.css
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.min.css.map = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\css\material\material.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{B14174D3-F9EB-4EF8-B0B6-74836C0E842A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.js = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.js
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.js.map = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.js.map
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.min.js = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.min.js
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.min.js.map = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\js\material\material.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{2E7DAC7F-8481-4C68-A119-7691AFA0C678}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\admin.png = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\admin.png
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\agent1.png = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\agent1.png
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png
+		..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png = ..\..\..\..\Downloads\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentPortalApiGateway", "AgentPortalApiGateway", "{5111D7D9-3768-44AB-B18A-38563E005E26}"
+	ProjectSection(SolutionItems) = preProject
+		AgentPortalApiGateway.csproj = AgentPortalApiGateway.csproj
+		AppSettings.cs = AppSettings.cs
+		appsettings.Development.json = appsettings.Development.json
+		appsettings.docker.json = appsettings.docker.json
+		appsettings.json = appsettings.json
+		Dockerfile = Dockerfile
+		ocelot.docker.json = ocelot.docker.json
+		ocelot.json = ocelot.json
+		Program.cs = Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{E30A1369-1F23-4262-A029-2E1A6E258AE1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\AgentPortalApiGateway\Properties\launchSettings.json = ..\..\..\..\Downloads\AgentPortalApiGateway\Properties\launchSettings.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -418,6 +575,25 @@ Global
 		{67E294AD-1AF7-4327-84CF-FECA2B203182} = {080ED98A-ECA1-4B6C-BA10-7902AA670AA4}
 		{6F9F376D-4768-4F64-AE20-6073FFACFF57} = {67E294AD-1AF7-4327-84CF-FECA2B203182}
 		{0D63936A-A4F4-4785-9B4D-32ACDDD91205} = {6F9F376D-4768-4F64-AE20-6073FFACFF57}
+		{170DC393-BD7A-4228-880A-84DA6E85F015} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{4D99FB21-18F4-4C5C-9415-3B1B5A514AA1} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{5D3D0BBC-B3BF-432E-A6DF-6174244BE1D8} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{C56F2236-BA7A-492D-8FC5-8FC3BA1607E3} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{0C87AA53-945F-4295-96C8-C65B245307F2} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{5E15FBE6-1F34-484F-ADE0-FC155F9D9CBD} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{36DD08D8-7874-411A-8D95-0EECE33422AC} = {170DC393-BD7A-4228-880A-84DA6E85F015}
+		{9DB7A6A9-CDF0-4CBD-8331-6EBF5810BA33} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{DE0592C9-FC69-48B8-A9DB-EDD7A8B8BA8B} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{0A646F7F-E7C7-4B3A-94BC-4331769B15EC} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{92799473-84ED-4949-ADEC-F4F952C957B3} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{FE045C22-346F-45AD-A764-64F01D474146} = {F24D2BAD-00E4-4B64-8D37-5FE15D1375BB}
+		{0DD108E3-5532-43A5-95D6-9358EF9FCDB9} = {FE045C22-346F-45AD-A764-64F01D474146}
+		{BCEF9830-0245-4BD2-B437-95174152928F} = {FE045C22-346F-45AD-A764-64F01D474146}
+		{D8031290-FABE-40F6-A0EA-6ADA53511D4B} = {FE045C22-346F-45AD-A764-64F01D474146}
+		{76F63AD2-5086-438B-9AE1-A3DAE0E7B9C1} = {0DD108E3-5532-43A5-95D6-9358EF9FCDB9}
+		{B14174D3-F9EB-4EF8-B0B6-74836C0E842A} = {BCEF9830-0245-4BD2-B437-95174152928F}
+		{2E7DAC7F-8481-4C68-A119-7691AFA0C678} = {D8031290-FABE-40F6-A0EA-6ADA53511D4B}
+		{E30A1369-1F23-4262-A029-2E1A6E258AE1} = {5111D7D9-3768-44AB-B18A-38563E005E26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C26B45A-81EE-4050-9ABD-CBAEE345490D}
