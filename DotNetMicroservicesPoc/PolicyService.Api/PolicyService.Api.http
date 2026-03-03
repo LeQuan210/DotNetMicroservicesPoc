@@ -1,0 +1,6 @@
+@PolicyService.Api_HostAddress = http://localhost:5187
+
+GET {{PolicyService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

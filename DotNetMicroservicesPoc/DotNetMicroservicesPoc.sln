@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PricingService", "PricingService", "{921E2715-5910-4A8C-9AC1-4568077F97F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{EE4926DF-622F-40F3-A3CA-BA8B264ECC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicyService", "PolicyService", "{720A06BD-7234-41DE-84C3-F6926EEF12E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentsService", "DocumentsService", "{5469D2A0-870B-4AC1-86D6-1279BE8BBE4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearchService", "PolicySearchService", "{23CA5545-9720-4EFA-AFFD-BB87CD161D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth Service", "Auth Service", "{2961ADE7-A21B-440F-94A6-0A97F25A8419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat Service", "Chat Service", "{B7FBC942-04FE-4E47-9387-E953945923BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agent Portal API Gateway", "Agent Portal API Gateway", "{9E3FB8F3-E1CF-44E2-BA2A-2FE787182741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{CFEC97B7-6719-43A9-A273-4EF4FE3E1AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService", "PricingService\PricingService.csproj", "{D03A1129-2545-4855-A725-F665ED0BA5F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Api", "PricingService.Api\PricingService.Api.csproj", "{CD97D0EA-93D3-4BE9-886F-A8A80613CA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D03A1129-2545-4855-A725-F665ED0BA5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03A1129-2545-4855-A725-F665ED0BA5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03A1129-2545-4855-A725-F665ED0BA5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03A1129-2545-4855-A725-F665ED0BA5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD97D0EA-93D3-4BE9-886F-A8A80613CA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD97D0EA-93D3-4BE9-886F-A8A80613CA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD97D0EA-93D3-4BE9-886F-A8A80613CA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD97D0EA-93D3-4BE9-886F-A8A80613CA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D03A1129-2545-4855-A725-F665ED0BA5F0} = {921E2715-5910-4A8C-9AC1-4568077F97F8}
+		{CD97D0EA-93D3-4BE9-886F-A8A80613CA12} = {921E2715-5910-4A8C-9AC1-4568077F97F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C26B45A-81EE-4050-9ABD-CBAEE345490D}
+	EndGlobalSection
+EndGlobal
