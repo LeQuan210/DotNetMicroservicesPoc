@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -82,6 +82,162 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend.Api", "Frontend.Api\Frontend.Api.csproj", "{9960C927-5F0E-475B-8F65-CF0047D30B4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend.Test", "Frontend.Test\Frontend.Test.csproj", "{7E80B78D-90AA-4138-8E7C-23A88657C28D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{4D17D7F3-0BEB-4B60-89BD-C9EF4A0EB7A1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\postgres\createdatabases.sql = ..\..\..\..\Downloads\postgres\createdatabases.sql
+		..\..\..\..\Downloads\postgres\Dockerfile = ..\..\..\..\Downloads\postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{E103EFF2-E88A-4256-8D6A-29A66EB43640}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\.dockerignore = ..\..\..\..\Downloads\Web\.dockerignore
+		..\..\..\..\Downloads\Web\.env-example = ..\..\..\..\Downloads\Web\.env-example
+		..\..\..\..\Downloads\Web\.gitignore = ..\..\..\..\Downloads\Web\.gitignore
+		..\..\..\..\Downloads\Web\babel.config.js = ..\..\..\..\Downloads\Web\babel.config.js
+		..\..\..\..\Downloads\Web\Dockerfile = ..\..\..\..\Downloads\Web\Dockerfile
+		..\..\..\..\Downloads\Web\nginx.conf = ..\..\..\..\Downloads\Web\nginx.conf
+		..\..\..\..\Downloads\Web\package-lock.json = ..\..\..\..\Downloads\Web\package-lock.json
+		..\..\..\..\Downloads\Web\package.json = ..\..\..\..\Downloads\Web\package.json
+		..\..\..\..\Downloads\Web\README.md = ..\..\..\..\Downloads\Web\README.md
+		..\..\..\..\Downloads\Web\yarn.lock = ..\..\..\..\Downloads\Web\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{C09E3269-72A8-442B-BA6A-DA69C6F1D330}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\public\favicon.ico = ..\..\..\..\Downloads\Web\public\favicon.ico
+		..\..\..\..\Downloads\Web\public\index.html = ..\..\..\..\Downloads\Web\public\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{3FF04082-2217-41D2-B0EE-18993E63CE49}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\public\static\car.jpg = ..\..\..\..\Downloads\Web\public\static\car.jpg
+		..\..\..\..\Downloads\Web\public\static\farm.jpg = ..\..\..\..\Downloads\Web\public\static\farm.jpg
+		..\..\..\..\Downloads\Web\public\static\house.jpg = ..\..\..\..\Downloads\Web\public\static\house.jpg
+		..\..\..\..\Downloads\Web\public\static\travel.jpg = ..\..\..\..\Downloads\Web\public\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{69F90C25-BF98-463B-B6AF-DAA0E67E260B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\public\static\avatars\admin.png = ..\..\..\..\Downloads\Web\public\static\avatars\admin.png
+		..\..\..\..\Downloads\Web\public\static\avatars\agent1.png = ..\..\..\..\Downloads\Web\public\static\avatars\agent1.png
+		..\..\..\..\Downloads\Web\public\static\avatars\danny_solid.png = ..\..\..\..\Downloads\Web\public\static\avatars\danny_solid.png
+		..\..\..\..\Downloads\Web\public\static\avatars\jimmy_solid.png = ..\..\..\..\Downloads\Web\public\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4DD91B0-7BDA-44C0-BECF-76385D6E04B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\src\App.vue = ..\..\..\..\Downloads\Web\src\App.vue
+		..\..\..\..\Downloads\Web\src\main.js = ..\..\..\..\Downloads\Web\src\main.js
+		..\..\..\..\Downloads\Web\src\router.js = ..\..\..\..\Downloads\Web\src\router.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{A9D02732-CFBA-41DE-B409-79A7ACCFAE2B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\src\components\Account.vue = ..\..\..\..\Downloads\Web\src\components\Account.vue
+		..\..\..\..\Downloads\Web\src\components\Chat.vue = ..\..\..\..\Downloads\Web\src\components\Chat.vue
+		..\..\..\..\Downloads\Web\src\components\Chatbot.vue = ..\..\..\..\Downloads\Web\src\components\Chatbot.vue
+		..\..\..\..\Downloads\Web\src\components\CoverList.vue = ..\..\..\..\Downloads\Web\src\components\CoverList.vue
+		..\..\..\..\Downloads\Web\src\components\Dashboard.vue = ..\..\..\..\Downloads\Web\src\components\Dashboard.vue
+		..\..\..\..\Downloads\Web\src\components\Home.vue = ..\..\..\..\Downloads\Web\src\components\Home.vue
+		..\..\..\..\Downloads\Web\src\components\PolicyCreate.vue = ..\..\..\..\Downloads\Web\src\components\PolicyCreate.vue
+		..\..\..\..\Downloads\Web\src\components\PolicyDetails.vue = ..\..\..\..\Downloads\Web\src\components\PolicyDetails.vue
+		..\..\..\..\Downloads\Web\src\components\PolicyList.vue = ..\..\..\..\Downloads\Web\src\components\PolicyList.vue
+		..\..\..\..\Downloads\Web\src\components\ProductCard.vue = ..\..\..\..\Downloads\Web\src\components\ProductCard.vue
+		..\..\..\..\Downloads\Web\src\components\ProductDetails.vue = ..\..\..\..\Downloads\Web\src\components\ProductDetails.vue
+		..\..\..\..\Downloads\Web\src\components\ProductList.vue = ..\..\..\..\Downloads\Web\src\components\ProductList.vue
+		..\..\..\..\Downloads\Web\src\components\SalesAgents.vue = ..\..\..\..\Downloads\Web\src\components\SalesAgents.vue
+		..\..\..\..\Downloads\Web\src\components\SalesBar.js = ..\..\..\..\Downloads\Web\src\components\SalesBar.js
+		..\..\..\..\Downloads\Web\src\components\SalesDistribution.vue = ..\..\..\..\Downloads\Web\src\components\SalesDistribution.vue
+		..\..\..\..\Downloads\Web\src\components\SalesLines.js = ..\..\..\..\Downloads\Web\src\components\SalesLines.js
+		..\..\..\..\Downloads\Web\src\components\SalesPie.js = ..\..\..\..\Downloads\Web\src\components\SalesPie.js
+		..\..\..\..\Downloads\Web\src\components\SalesTrendsLines.vue = ..\..\..\..\Downloads\Web\src\components\SalesTrendsLines.vue
+		..\..\..\..\Downloads\Web\src\components\TotalSalesCard.vue = ..\..\..\..\Downloads\Web\src\components\TotalSalesCard.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{9E97C29B-4C34-4C62-9981-220D2BF1A80C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\src\components\http\ApiClient.js = ..\..\..\..\Downloads\Web\src\components\http\ApiClient.js
+		..\..\..\..\Downloads\Web\src\components\http\Auth.js = ..\..\..\..\Downloads\Web\src\components\http\Auth.js
+		..\..\..\..\Downloads\Web\src\components\http\WebSocket.js = ..\..\..\..\Downloads\Web\src\components\http\WebSocket.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{5BD7EF62-CDDF-48C3-9038-2C386B3D1C45}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\src\assets\logo.png = ..\..\..\..\Downloads\Web\src\assets\logo.png
+		..\..\..\..\Downloads\Web\src\assets\logo_horizontal.png = ..\..\..\..\Downloads\Web\src\assets\logo_horizontal.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{0A77E06F-239E-4272-A853-1017397D1828}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Web\src\views\AccountView.vue = ..\..\..\..\Downloads\Web\src\views\AccountView.vue
+		..\..\..\..\Downloads\Web\src\views\ChatbotView.vue = ..\..\..\..\Downloads\Web\src\views\ChatbotView.vue
+		..\..\..\..\Downloads\Web\src\views\ChatView.vue = ..\..\..\..\Downloads\Web\src\views\ChatView.vue
+		..\..\..\..\Downloads\Web\src\views\DashboardView.vue = ..\..\..\..\Downloads\Web\src\views\DashboardView.vue
+		..\..\..\..\Downloads\Web\src\views\HomeView.vue = ..\..\..\..\Downloads\Web\src\views\HomeView.vue
+		..\..\..\..\Downloads\Web\src\views\PoliciesView.vue = ..\..\..\..\Downloads\Web\src\views\PoliciesView.vue
+		..\..\..\..\Downloads\Web\src\views\PolicyCreateView.vue = ..\..\..\..\Downloads\Web\src\views\PolicyCreateView.vue
+		..\..\..\..\Downloads\Web\src\views\PolicyDetailsView.vue = ..\..\..\..\Downloads\Web\src\views\PolicyDetailsView.vue
+		..\..\..\..\Downloads\Web\src\views\ProductDetailsView.vue = ..\..\..\..\Downloads\Web\src\views\ProductDetailsView.vue
+		..\..\..\..\Downloads\Web\src\views\ProductsView.vue = ..\..\..\..\Downloads\Web\src\views\ProductsView.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eureka-server", "eureka-server", "{A304969C-DBB3-4C91-B9CD-2564147BE484}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\eureka-server\build.gradle = ..\..\..\..\Downloads\eureka-server\build.gradle
+		..\..\..\..\Downloads\eureka-server\Dockerfile = ..\..\..\..\Downloads\eureka-server\Dockerfile
+		..\..\..\..\Downloads\eureka-server\gradlew = ..\..\..\..\Downloads\eureka-server\gradlew
+		..\..\..\..\Downloads\eureka-server\gradlew.bat = ..\..\..\..\Downloads\eureka-server\gradlew.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradle", "gradle", "{415330BD-F71E-4DEB-B650-F56713C46BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28BC7C03-F028-4422-812D-723EC9D22E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapper", "wrapper", "{DD6D4968-A0E9-4D8C-B2E3-8556FE50A705}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\eureka-server\gradle\wrapper\gradle-wrapper.jar = ..\..\..\..\Downloads\eureka-server\gradle\wrapper\gradle-wrapper.jar
+		..\..\..\..\Downloads\eureka-server\gradle\wrapper\gradle-wrapper.properties = ..\..\..\..\Downloads\eureka-server\gradle\wrapper\gradle-wrapper.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{1DB73888-6ED9-4EF6-843D-A0F0594731F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "java", "java", "{3FCB5176-ABD1-4D3C-B647-D5C3A24DF1BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{D07664D0-B1D2-4A79-B6EA-CD5081B1CBC3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\eureka-server\src\main\resources\application.yml = ..\..\..\..\Downloads\eureka-server\src\main\resources\application.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{080ED98A-ECA1-4B6C-BA10-7902AA670AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chrisrichardson", "chrisrichardson", "{67E294AD-1AF7-4327-84CF-FECA2B203182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{6F9F376D-4768-4F64-AE20-6073FFACFF57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eurekaserver", "eurekaserver", "{0D63936A-A4F4-4785-9B4D-32ACDDD91205}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java = ..\..\..\..\Downloads\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{11C24A2D-EECB-4275-B256-4175B37D082D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\scripts\app-build.sh = ..\..\..\..\Downloads\scripts\app-build.sh
+		..\..\..\..\Downloads\scripts\app-down.sh = ..\..\..\..\Downloads\scripts\app-down.sh
+		..\..\..\..\Downloads\scripts\app-logs.sh = ..\..\..\..\Downloads\scripts\app-logs.sh
+		..\..\..\..\Downloads\scripts\app-run.sh = ..\..\..\..\Downloads\scripts\app-run.sh
+		..\..\..\..\Downloads\scripts\app.yml = ..\..\..\..\Downloads\scripts\app.yml
+		..\..\..\..\Downloads\scripts\build-without-tests.bat = ..\..\..\..\Downloads\scripts\build-without-tests.bat
+		..\..\..\..\Downloads\scripts\build-without-tests.sh = ..\..\..\..\Downloads\scripts\build-without-tests.sh
+		..\..\..\..\Downloads\scripts\build.bat = ..\..\..\..\Downloads\scripts\build.bat
+		..\..\..\..\Downloads\scripts\build.sh = ..\..\..\..\Downloads\scripts\build.sh
+		..\..\..\..\Downloads\scripts\infra-build.sh = ..\..\..\..\Downloads\scripts\infra-build.sh
+		..\..\..\..\Downloads\scripts\infra-down.sh = ..\..\..\..\Downloads\scripts\infra-down.sh
+		..\..\..\..\Downloads\scripts\infra-logs.sh = ..\..\..\..\Downloads\scripts\infra-logs.sh
+		..\..\..\..\Downloads\scripts\infra-run.sh = ..\..\..\..\Downloads\scripts\infra-run.sh
+		..\..\..\..\Downloads\scripts\infra.yml = ..\..\..\..\Downloads\scripts\infra.yml
+		..\..\..\..\Downloads\scripts\rabbitmq-isolated.conf = ..\..\..\..\Downloads\scripts\rabbitmq-isolated.conf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -244,6 +400,24 @@ Global
 		{9EC6060E-0AF7-4617-8ABD-9672969A6063} = {CFEC97B7-6719-43A9-A273-4EF4FE3E1AFD}
 		{9960C927-5F0E-475B-8F65-CF0047D30B4A} = {CFEC97B7-6719-43A9-A273-4EF4FE3E1AFD}
 		{7E80B78D-90AA-4138-8E7C-23A88657C28D} = {CFEC97B7-6719-43A9-A273-4EF4FE3E1AFD}
+		{C09E3269-72A8-442B-BA6A-DA69C6F1D330} = {E103EFF2-E88A-4256-8D6A-29A66EB43640}
+		{3FF04082-2217-41D2-B0EE-18993E63CE49} = {C09E3269-72A8-442B-BA6A-DA69C6F1D330}
+		{69F90C25-BF98-463B-B6AF-DAA0E67E260B} = {3FF04082-2217-41D2-B0EE-18993E63CE49}
+		{F4DD91B0-7BDA-44C0-BECF-76385D6E04B9} = {E103EFF2-E88A-4256-8D6A-29A66EB43640}
+		{A9D02732-CFBA-41DE-B409-79A7ACCFAE2B} = {F4DD91B0-7BDA-44C0-BECF-76385D6E04B9}
+		{9E97C29B-4C34-4C62-9981-220D2BF1A80C} = {A9D02732-CFBA-41DE-B409-79A7ACCFAE2B}
+		{5BD7EF62-CDDF-48C3-9038-2C386B3D1C45} = {F4DD91B0-7BDA-44C0-BECF-76385D6E04B9}
+		{0A77E06F-239E-4272-A853-1017397D1828} = {F4DD91B0-7BDA-44C0-BECF-76385D6E04B9}
+		{415330BD-F71E-4DEB-B650-F56713C46BF1} = {A304969C-DBB3-4C91-B9CD-2564147BE484}
+		{28BC7C03-F028-4422-812D-723EC9D22E52} = {A304969C-DBB3-4C91-B9CD-2564147BE484}
+		{DD6D4968-A0E9-4D8C-B2E3-8556FE50A705} = {415330BD-F71E-4DEB-B650-F56713C46BF1}
+		{1DB73888-6ED9-4EF6-843D-A0F0594731F7} = {28BC7C03-F028-4422-812D-723EC9D22E52}
+		{3FCB5176-ABD1-4D3C-B647-D5C3A24DF1BA} = {1DB73888-6ED9-4EF6-843D-A0F0594731F7}
+		{D07664D0-B1D2-4A79-B6EA-CD5081B1CBC3} = {1DB73888-6ED9-4EF6-843D-A0F0594731F7}
+		{080ED98A-ECA1-4B6C-BA10-7902AA670AA4} = {3FCB5176-ABD1-4D3C-B647-D5C3A24DF1BA}
+		{67E294AD-1AF7-4327-84CF-FECA2B203182} = {080ED98A-ECA1-4B6C-BA10-7902AA670AA4}
+		{6F9F376D-4768-4F64-AE20-6073FFACFF57} = {67E294AD-1AF7-4327-84CF-FECA2B203182}
+		{0D63936A-A4F4-4785-9B4D-32ACDDD91205} = {6F9F376D-4768-4F64-AE20-6073FFACFF57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C26B45A-81EE-4050-9ABD-CBAEE345490D}
