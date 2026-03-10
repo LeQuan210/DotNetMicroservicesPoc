@@ -1,4 +1,4 @@
-@PricingService.Api_HostAddress = http://localhost:5173
+@PricingService.Api_HostAddress = http://localhost:5259
 
 GET {{PricingService.Api_HostAddress}}/weatherforecast/
 Accept: application/json
