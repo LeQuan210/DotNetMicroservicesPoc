@@ -13,4 +13,8 @@
     <PackageReference Include="Steeltoe.Discovery.Eureka" Version="4.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="ChatService.csproj" />
+  </ItemGroup>
+
 </Project>
