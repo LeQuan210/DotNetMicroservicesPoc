@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Ocelot" Version="16.0.0" />
+    <PackageReference Include="Ocelot.Cache.CacheManager" Version="16.0.0" />
+    <PackageReference Include="Ocelot.Provider.Eureka" Version="16.0.0" />
+  </ItemGroup>
+
 </Project>
