@@ -19,7 +19,7 @@ public class NotificationController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> SendNotification([FromBody] SendNotificationCommand cmd)
+    public async Task<IActionResult> SendNotification([FromBody] SendNotificationCommands cmd)
     {
         var result = await bus.Send(cmd);
         return Ok();

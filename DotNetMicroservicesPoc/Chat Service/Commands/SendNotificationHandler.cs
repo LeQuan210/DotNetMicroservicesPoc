@@ -1,6 +1,6 @@
 using System.Threading;
 using System.Threading.Tasks;
-using ChatService.Api.Commands;
+using ChatService.Commands;
 using ChatService.Hubs;
 using MediatR;
 using Microsoft.AspNetCore.SignalR;

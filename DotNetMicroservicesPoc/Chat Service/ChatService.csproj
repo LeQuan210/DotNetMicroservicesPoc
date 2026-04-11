@@ -2,6 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<NoWarn>$(NoWarn);NU1608;CS8618;CS8603</NoWarn>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>

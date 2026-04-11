@@ -7,13 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="7.8.0" />
+    <PackageReference Include="Elastic.Apm" Version="1.10.0" />
+    <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.0.0-alpha.1" />
+    <PackageReference Include="GlobalExceptionHandler" Version="4.0.0" />
+    <PackageReference Include="Hangfire" Version="0.7.5" />
+    <PackageReference Include="JWT" Version="11.0.0" />
     <PackageReference Include="Marten" Version="7.30.3" />
-    <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
     <PackageReference Include="Ocelot" Version="16.0.0" />
     <PackageReference Include="Ocelot.Cache.CacheManager" Version="16.0.0" />
     <PackageReference Include="Ocelot.Provider.Eureka" Version="16.0.0" />
+    <PackageReference Include="RawRabbit.DependencyInjection.ServiceCollection" Version="2.0.0-rc5" />
+    <PackageReference Include="RawRabbit.Operations.Tools" Version="2.0.0-rc5" />
     <PackageReference Include="Steeltoe.Discovery.Eureka" Version="4.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
   </ItemGroup>
 
 </Project>
